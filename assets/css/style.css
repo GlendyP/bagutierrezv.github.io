@@ -25,3 +25,11 @@ a:hover {
 
     border: 1px solid #240F3F;
 }
+
+.info{
+    align-items: center;
+}
+
+.certificados h2{
+    text-align: center;
+}
