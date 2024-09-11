@@ -6,7 +6,7 @@
 
 body {
     font-family: "Playpen Sans", cursive;
-    background-color: rgb(249, 246, 253);
+    background-color: #f9f6fd;
 }
 
 .nav-link {
@@ -14,8 +14,8 @@ body {
 }
 
 .navbar-nav a:hover {
-    font-weight: 500;
-    color: #5F0081;
+    font-weight: 700;
+    color: #240F3F;
 }
 
 .acerca-de-mi{
@@ -23,13 +23,15 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #240F3F;
+    color: #f9eaff;
 
     border: 1px solid #240F3F;
 }
 
 .text-descripcion{
     /*border: 1px solid #240F3F;*/
-    width: 60%;
+    width: 50%;
     padding: 0px 20px 0px 20px;
 }
 /*.img-descripcion{
@@ -46,6 +48,9 @@ h2{
 
 .certificados{
     border: 1px solid #240F3F;
+    background-image: url(../img/bg_cert.png);
+    
+    background-position: center;
 }
 
 .btn-ver-todo{
@@ -53,18 +58,22 @@ display: block;
 justify-content: end;
 width: 100px;
 font-weight: 500;
-background-color: #aaa2ff;
-color: #ffffff;
-border: 1px solid #ffffff;
+background-color: #240f3f;
+color: #f9eaff;
+border: 1px solid #f9eaff;
 text-align: center;
 border-radius: 10px;
 text-decoration: none;
 }
 
 .btn-hover a:hover{
-    background-color: transparent;
+    background-color: #f9eaff;
     font-weight: 700;
     color: #240F3F;
     border: 2px solid #240F3F;
+}
+
+.card{
+    max-width: 23em;
 }
 
