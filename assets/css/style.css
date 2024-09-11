@@ -16,6 +16,7 @@ body {
 .navbar-nav a:hover {
     font-weight: 700;
     color: #240F3F;
+    text-decoration: underline;
 }
 
 .acerca-de-mi{
@@ -34,6 +35,18 @@ body {
     width: 50%;
     padding: 0px 20px 0px 20px;
 }
+
+.card-title a{
+    color: #240F3F;
+    text-decoration: none;
+}
+.card-title a:hover{
+    color: #8f5fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
 /*.img-descripcion{
     border: 1px solid #240F3F;
 }*/
