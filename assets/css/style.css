@@ -22,9 +22,19 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     border: 1px solid #240F3F;
 }
+
+.text-descripcion{
+    /*border: 1px solid #240F3F;*/
+    width: 60%;
+    padding: 0px 20px 0px 20px;
+}
+/*.img-descripcion{
+    border: 1px solid #240F3F;
+}*/
 
 .info{
     align-items: center;
