@@ -19,7 +19,7 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg container-fluid">
+    <nav class="navbar navbar-expand-lg container-fluid sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.png" alt="Logo-Barbara" width="250" height="50">
@@ -30,17 +30,42 @@
             </button>
             <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#">Inicio</a>
-                    <a class="nav-link" href="./certificaciones.html">Certificaciones</a>
-                    <a class="nav-link" href="#">Portafolio</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#certificaciones">Certificaciones</a>
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!--HEADER-->
+    <header class="video-container">
+        <video autoplay muted loop>
+            <source src="./assets/video/bg_video.mp4" type="video/mp4" />
+        </video>
+        <div class="caption">
+            <div class="acerca-de-mi px-5 py-5" id="inicio">
+                <figure class="img-descripcion">
+                    <img src="assets/img/header.png" alt="Foto-Barbara">
+                </figure>
+                <div class="text-descripcion">
+                    <h1>Hola, soy Bárbara</h1>
+                    <br>
+                    <p>Soy diseñadora UX/UI y pronto seré desarrolladora full stack. Así que te invito que conozcas más
+                        de mi y
+                        mis proyectos.</p>
+                    <p>Estoy comenzando mis primeros pasos en el mundo de la tecnología, por lo cual me encuentro en
+                        búsqueda de
+                        aprendizajes y crecimiento profesional dentro del área.</p>
+                    <p>Espero te guste mi trabajo y así puedas contactarme para comenzar a trabajar juntos.</p>
+                </div>
+            </div>
+        </div>
+    </header>
     <!--Header-->
-    <header class="acerca-de-mi px-5 py-5">
+    <!--<header class="acerca-de-mi px-5 py-5" id="inicio">
         <figure class="img-descripcion">
             <img src="assets/img/header.png" alt="Foto-Barbara">
         </figure>
@@ -53,38 +78,42 @@
                 aprendizajes y crecimiento profesional dentro del área.</p>
             <p>Espero te guste mi trabajo y así puedas contactarme para comenzar a trabajar juntos.</p>
         </div>
-    </header>
+    </header>-->
 
     <!--Certificaciones-->
     <main>
-        <section class="certificados pt-5">
+        <section class="certificados pt-5" id="certificaciones">
             <h2>Mis Certificaciones</h2>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto";">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
                             <img src="./assets/img/ux_ui.png" class="card-img-top" alt="ux_ui">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/23086/aprobacion-final-proyecto-ux-ui-g40-13136.png" target="_blank">Diseñadora UX/UI</a></h5>
-                                <br>
+                                <h5 class="card-title text-center"><a
+                                        href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/23086/aprobacion-final-proyecto-ux-ui-g40-13136.png"
+                                        target="_blank">Diseñadora UX/UI</a></h5>
                                 <div class="card-text">
-                                    <p>Fecha de emisión: Mayo 2023 </p>
-                                    <div class="d-flex info">
+                                    <div class="d-flex justify-content-center">
                                         <p>Emitido por:</p>
                                         <figure>
                                             <img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="100">
                                         </figure>
                                     </div>
-                                    <p>Numero de certificado: 23086 </p>
+                                    <div class="d-flex justify-content-end">
+                                        <p class="ver">Ver certificado</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto";">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
                             <img src="./assets/img/ui_1.png" class="card-img-top" alt="ui">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/22382/aprobacion-modulos-cursos-b-learning-diseno-ui-g40-13136.png" target="_blank">Diseñadora UI</a></h5>
+                                <h5 class="card-title text-center"><a
+                                        href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/22382/aprobacion-modulos-cursos-b-learning-diseno-ui-g40-13136.png"
+                                        target="_blank">Diseñadora UI</a></h5>
                                 <br>
                                 <div class="card-text">
                                     <p>Fecha de emisión: Abril 2023 </p>
@@ -99,11 +128,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
                             <img src="./assets/img/ux_writing.png" class="card-img-top" alt="ux_writing">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><a href="https://www.udemy.com/certificate/UC-1f1d39ee-2882-4ebd-a45e-fc8df9b32f6c/" target="_blank">UX Writing</a></h5>
+                                <h5 class="card-title text-center"><a
+                                        href="https://www.udemy.com/certificate/UC-1f1d39ee-2882-4ebd-a45e-fc8df9b32f6c/"
+                                        target="_blank">UX Writing</a></h5>
+                                <br>
+                                <div class="card-text">
+                                    <p>Fecha de emisión: Mayo 2023 </p>
+                                    <div class="d-flex info">
+                                        <p>Emitido por:</p>
+                                        <figure ps-2>
+                                            <img src="./assets/img/logo_udemy.png" alt="udemy" width="100">
+                                        </figure>
+                                    </div>
+                                    <p>Numero de certificado: 23086 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux_writing.png" class="card-img-top" alt="ux_writing">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a
+                                        href="https://www.udemy.com/certificate/UC-1f1d39ee-2882-4ebd-a45e-fc8df9b32f6c/"
+                                        target="_blank">UX Writing</a></h5>
                                 <br>
                                 <div class="card-text">
                                     <p>Fecha de emisión: Mayo 2023 </p>
@@ -120,90 +172,114 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-hover mt-5 mb-4">
+            </div>
+            <div class="btn-hover mt-5 pb-4">
                 <a href="./certificaciones.html" target="_blank" class="btn-ver-todo p-2 ms-auto mt-3 me-auto">Ver
                     todo</a>
             </div>
         </section>
 
-        <!--Mis trabajos-->
+        <!--Experiencia-->
 
-        <section class="portafolio pt-5">
-            <h2>Mi Portafolio</h2>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto";">
-                            <img src="./assets/img/ux_ui.png" class="card-img-top" alt="ux_ui">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Diseñadora UX/UI</h5>
-                                <br>
-                                <div class="card-text">
-                                    <p>Fecha de emisión: Mayo 2023 </p>
-                                    <div class="d-flex info">
-                                        <p>Emitido por:</p>
-                                        <figure>
-                                            <img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="100">
-                                        </figure>
+
+
+
+
+
+        <!--Portafolio-->
+        <section>
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="./assets/video/bg_video.mp4" type="video/mp4" />
+                </video>
+                <div class="caption">
+                    <section class="portafolio pt-5" id="portafolio"></section>
+                    <h2>Mi Portafolio</h2>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card mt-4 mx-auto">
+                                    <img src="./assets/img/ux_ui.png" class="card-img-top" alt="ux_ui">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center"><a
+                                                href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/23086/aprobacion-final-proyecto-ux-ui-g40-13136.png"
+                                                target="_blank">Diseñadora UX/UI</a></h5>
+                                        <br>
+                                        <div class="card-text">
+                                            <p>Fecha de emisión: Mayo 2023 </p>
+                                            <div class="d-flex info">
+                                                <p>Emitido por:</p>
+                                                <figure>
+                                                    <img src="./assets/img/logo_desafio.png" alt="desafio_latam"
+                                                        width="100">
+                                                </figure>
+                                            </div>
+                                            <p>Numero de certificado: 23086 </p>
+                                        </div>
                                     </div>
-                                    <p>Numero de certificado: 23086 </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card mt-4 mx-auto" ;">
+                                    <img src="./assets/img/ui_1.png" class="card-img-top" alt="ui">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center"><a
+                                                href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/22382/aprobacion-modulos-cursos-b-learning-diseno-ui-g40-13136.png"
+                                                target="_blank">Diseñadora UI</a></h5>
+                                        <br>
+                                        <div class="card-text">
+                                            <p>Fecha de emisión: Abril 2023 </p>
+                                            <div class="d-flex info">
+                                                <p>Emitido por:</p>
+                                                <figure>
+                                                    <img src="./assets/img/logo_desafio.png" alt="desafio_latam"
+                                                        width="100">
+                                                </figure>
+                                            </div>
+                                            <p>Numero de certificado: 22382 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card mt-4 mx-auto">
+                                    <img src="./assets/img/ux_writing.png" class="card-img-top" alt="ux_writing">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center"><a
+                                                href="https://www.udemy.com/certificate/UC-1f1d39ee-2882-4ebd-a45e-fc8df9b32f6c/"
+                                                target="_blank">UX Writing</a></h5>
+                                        <br>
+                                        <div class="card-text">
+                                            <p>Fecha de emisión: Mayo 2023 </p>
+                                            <div class="d-flex info">
+                                                <p>Emitido por:</p>
+                                                <figure ps-2>
+                                                    <img src="./assets/img/logo_udemy.png" alt="udemy" width="100">
+                                                </figure>
+                                            </div>
+                                            <p>Numero de certificado: 23086 </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto";">
-                            <img src="./assets/img/ui_1.png" class="card-img-top" alt="ui">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Diseñadora UI</h5>
-                                <br>
-                                <div class="card-text">
-                                    <p>Fecha de emisión: Abril 2023 </p>
-                                    <div class="d-flex info">
-                                        <p>Emitido por:</p>
-                                        <figure>
-                                            <img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="100">
-                                        </figure>
-                                    </div>
-                                    <p>Numero de certificado: 22382 </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="btn-hover mt-5 pb-4">
+                        <a href="./certificaciones.html" target="_blank"
+                            class="btn-ver-todo p-2 ms-auto mt-3 me-auto">Ver
+                            todo</a>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mt-4 mx-auto">
-                            <img src="./assets/img/ux_writing.png" class="card-img-top" alt="ux_writing">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">UX Writing</h5>
-                                <br>
-                                <div class="card-text">
-                                    <p>Fecha de emisión: Mayo 2023 </p>
-                                    <div class="d-flex info">
-                                        <p>Emitido por:</p>
-                                        <figure ps-2>
-                                            <img src="./assets/img/logo_udemy.png" alt="udemy" width="100">
-                                        </figure>
-                                    </div>
-                                    <p>Numero de certificado: 23086 </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-hover mt-5 mb-4">
-                <a href="./certificaciones.html" target="_blank" class="btn-ver-todo p-2 ms-auto mt-3 me-auto">Ver
-                    todo</a>
-            </div>
         </section>
-
-
-
+        </div>
+        </div>
+        </section>
 
 
 
 
     </main>
+
+
 
 
 
