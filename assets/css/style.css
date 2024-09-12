@@ -9,9 +9,14 @@ body {
     background-color: #f8eefc;
 }
 
+h2 {
+    text-align: center;
+}
+
+
+
 .navbar {
    background-color: #f8eefc;
-    ;
 }
 
 .nav-link {
@@ -20,7 +25,7 @@ body {
 
 .navbar-nav a:hover {
     font-weight: 700;
-    color: #240F3F;
+    color: #8f5fff;
     text-decoration: underline;
 }
 
@@ -29,7 +34,6 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /*background-color: #240F3F;*/
     color: #f9eaff;
 
     /*border: 1px solid #240F3F;*/
@@ -41,51 +45,57 @@ body {
     padding: 0px 20px 0px 20px;
 }
 
-/*.card {
-    max-width: 30em;
-}*/
-
+.card{
+    background-color: transparent;
+    
+    
+}
 .card-body {
     align-items: center;
     height: auto;
-background-color: #f4eafd;
+    background-color: #240F3F;
 padding: 16px 16px 0px 16px;
 }
 
-.card-title a {
-    color: #240F3F;
-    text-decoration: none;
-}
-
-.card-title a:hover {
-    color: #8f5fff;
-    text-decoration: underline;
-    font-weight: 700;
-}
-
-/*.card-text{
-    min-height: 2px;
-}*/
 
 .ver{
     font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ver a:hover{
+    color: #f1eaff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.ver a{
+    color: #f3d4ff;
+    text-decoration: underline;
 }
 
 .img-descripcion img{
-    width: 100%;;
+    width: 100%;
     /*border: 1px solid #240F3F;*/
 }
 
-h2 {
-    text-align: center;
-}
+
 
 .certificados {
     background-image: url(../img/bg_cert.png);
     background-position: center;
-    min-height: 800px;
+    min-height: 400px;
 
     /*border: 1px solid #240F3F;*/
+}
+
+.certificados h2{
+    color: #240F3F;
+}
+
+.certificados h5{
+    color: #f9eaff;
 }
 
 .btn-ver-todo {
@@ -107,8 +117,6 @@ h2 {
     color: #240F3F;
     border: 2px solid #240F3F;
 }
-
-
 
 .video-container {
     min-height: 500px;
