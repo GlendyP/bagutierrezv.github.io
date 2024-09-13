@@ -19,7 +19,7 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg container-fluid">
+    <nav class="navbar navbar-expand-lg container-fluid sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.png" alt="Logo-Barbara" width="250" height="50">
@@ -30,7 +30,7 @@
             </button>
             <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="./index.html">Inicio</a>
                     <a class="nav-link" href="#">Certificaciones</a>
                     <a class="nav-link" href="#">Portafolio</a>
                     <a class="nav-link" href="#">Contacto</a>
@@ -41,73 +41,207 @@
     
     <!--Certificaciones-->
     <main>
-        <section>
+        <section class="certificados-body pt-5" id="certificaciones">
             <h2>Mis Certificaciones</h2>
             <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/ux_ui.png" class="card-img-top" alt="ux_ui">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Diseñadora UX/UI</h5>
-                            <br>
-                            <div class="card-text">
-                                <p>Fecha de emisión: Mayo 2023 </p>
-                                <div class="d-flex info">
-                                    <p>Emitido por:</p>
-                                    <figure>
-                                        <img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="100">
-                                    </figure>
-                                </div>
-                                <p>Numero de certificado: 23086 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/ui_1.png" class="card-img-top" alt="ui">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Diseñadora UI</h5>
-                            <br>
-                            <div class="card-text">
-                                <p>Fecha de emisión: Abril 2023 </p>
-                                <div class="d-flex info">
-                                    <p>Emitido por:</p>
-                                    <figure>
-                                        <img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="100">
-                                    </figure>
-                                </div>
-                                <p>Numero de certificado: 22382 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/ux_writing.png" class="card-img-top" alt="ux_writing">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">UX Writing</h5>
-                            <br>
-                            <div class="card-text">
-                                <p>Fecha de emisión: Mayo 2023 </p>
-                                <div class="d-flex info">
-                                    <p>Emitido por:</p>
-                                    <figure ps-2>
-                                        <img src="./assets/img/logo_udemy.png" alt="udemy" width="100">
-                                    </figure>
-                                </div>
-                                <p>Numero de certificado: 23086 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+                <div class="row justify-content-center">
 
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/full_stack.png" class="card-img-top" alt="full_stack">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Desarrollo Full Stack</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="en-curso ms-auto">En curso</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/diseno_web.png" class="card-img-top" alt="diseño web">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Diseño y Desarrollo Web</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://www.udemy.com/" target="_blank"><img src="./assets/img/logo_udemy.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="en-curso ms-auto">En curso</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux_ui.png" class="card-img-top" alt="ux_ui">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Diseñadora <br> UX/UI</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/23086/aprobacion-final-proyecto-ux-ui-g40-13136.png" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ui_1.png" class="card-img-top" alt="ux_ui">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">Diseño UI</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/22382/aprobacion-modulos-cursos-b-learning-diseno-ui-g40-13136.png" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/html.jpg" class="card-img-top" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Fundamentos Desarrollo Web</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/20279/aprobacion-modulos-cursos-b-learning-fundamentos-desarrollo-web-g40-13136.png" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux.png" class="card-img-top" alt="desarrollo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">Diseño UX</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/21687/aprobacion-modulos-cursos-b-learning-diseno-ux-g40-13136.png" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/figma.png" class="card-img-top" alt="figma">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">Taller Figma</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://desafiolatam.com/" target="_blank"><img src="./assets/img/logo_desafio.png" alt="desafio_latam" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/22125/certificado-participacion-taller-taller-figma-g3-13136.png" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux_writing.png" class="card-img-top" alt="writing">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">UX Writing</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://www.udemy.com/" target="_blank"><img src="./assets/img/logo_udemy.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://www.udemy.com/certificate/UC-1f1d39ee-2882-4ebd-a45e-fc8df9b32f6c/" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux_ui_1.png" class="card-img-top" alt="ux/ui">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">Diseño UX/UI</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://www.udemy.com/" target="_blank"><img src="./assets/img/logo_udemy.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://www.udemy.com/certificate/UC-6c909a8e-d51d-4d80-87f3-48055404bd48/" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/design_thinking.png" class="card-img-top" alt="design_thinking">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 pb-2">Design Thinking</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://ingenieria.uchile.cl/" target="_blank"><img src="./assets/img/fcfm.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://cajalosandes.virtual-labx.cl/certificates/45d9b6b15a344c28ae8ed48b6c3d2201" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/scrum.png" class="card-img-top" alt="design_thinking">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Scrum Essentials</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://ingenieria.uchile.cl/" target="_blank"><img src="./assets/img/fcfm.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://cajalosandes.virtual-labx.cl/certificates/9c9d2a95edf34fa095163ea2cfffc963" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mt-4 mx-2">
+                            <img src="./assets/img/ux_2.png" class="card-img-top" alt="design_thinking">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Aspectos básicos UX</h5>
+                                <div class="card-text">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <figure>
+                                            <a href="https://ingenieria.uchile.cl/" target="_blank"><img src="./assets/img/coursera.png" alt="udemy" width="30"></a>
+                                        </figure>
+                                        <p class="ver ms-auto"><a href="https://coursera.org/verify/3EK5WEQSC4H5" target="_blank">Ver certificado</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
-    </main>
-
+        </main>
 
 
 
