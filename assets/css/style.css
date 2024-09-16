@@ -13,8 +13,6 @@ h2 {
     text-align: center;
 }
 
-
-
 .navbar {
    background-color: #f8eefc;
 }
@@ -89,8 +87,6 @@ padding: 16px 16px 0px 16px;
     /*border: 1px solid #240F3F;*/
 }
 
-
-
 .certificados {
     background-image: url(../img/bg_cert.png);
     background-position: center;
@@ -108,18 +104,14 @@ padding: 16px 16px 0px 16px;
 }
 
 .certificados-body {
-    background-image: url(../img/bg_cert.png);
+    /*background-image: url(../img/bg_cert.png);
     background-position: center;
-    padding-bottom: 50px;
+    padding-bottom: 50px;*/
 
     /*border: 1px solid #240F3F;*/
 }
 
-.certificados-body h5{
-    color: #f9eaff;
-}
-
-.btn-ver-todo {
+.btn-ver-dark {
     display: block;
     justify-content: end;
     width: 100px;
@@ -132,12 +124,93 @@ padding: 16px 16px 0px 16px;
     text-decoration: none;
 }
 
-.btn-hover a:hover {
+.btn-hover-dark a:hover {
     background-color: #f9eaff;
     font-weight: 700;
     color: #240F3F;
     border: 2px solid #240F3F;
 }
+
+.btn-ver-light {
+    display: block;
+    justify-content: end;
+    width: 100px;
+    font-weight: 500;
+    background-color: #f9eaff;
+    color: #240f3f;
+    border: 1px solid #240f3f;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-hover-light a:hover {
+    background-color: #240f3f;
+    font-weight: 700;
+    color: #f9eaff;
+    border: 2px solid #f9eaff;
+}
+
+.portafolio {
+    background-image: url(../img/bg_cert.png);
+    background-position: center;
+    min-height: auto;
+    
+
+    /*border: 1px solid #240F3F;*/
+}
+
+.portafolio h2{
+    color: #f9eaff;
+}
+
+.portafolio h5{
+    color: #f9eaff;
+}
+
+.portafolio {
+    background-image: url(../img/bg_color.png);
+    background-position: center;
+    
+
+    /*border: 1px solid #240F3F;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .video-container {
     min-height: 500px;
