@@ -14,19 +14,21 @@ h2 {
     text-align: center;
 }
 
+/*NAVBAR*/
+
 .navbar {
    background-color: #f8eefc;
 }
-
 .nav-link {
     color: #240F3F;
 }
-
 .navbar-nav a:hover {
     font-weight: 700;
     color: #5817a3;
     text-decoration: underline;
 }
+
+/*HEADER*/
 
 .acerca-de-mi {
     display: flex;
@@ -37,12 +39,17 @@ h2 {
 
     /*border: 1px solid #240F3F;*/
 }
-
 .text-descripcion {
     /*border: 1px solid #240F3F;*/
     width: 60%;
     padding: 0px 20px 0px 20px;
 }
+.img-descripcion img{
+    width: 100%;
+    /*border: 1px solid #240F3F;*/
+}
+
+/*CERTIFICADOS*/
 
 .card-dark{
     background-color: transparent;
@@ -72,52 +79,42 @@ h2 {
     padding: 16px 16px 0px 16px;
 }*/
 
-
+/*BOTONES PARA VER CERTIFICADOS*/
 
 .ver-dark{
     font-size: small;
     text-decoration: none;
     font-weight: 500;
 }
-
 .ver-dark a:hover{
     color: #f1eaff;
     text-decoration: none;
     font-weight: 700;
 }
-
 .ver-dark a{
     color: #f3d4ff;
     text-decoration: underline;
 }
-
 .en-curso{
     font-size: small;
-    color: #f3d4ff;
-    
+    color: #f3d4ff;   
 }
-
 .ver-light{
     font-size: small;
     text-decoration: none;
     font-weight: 500;
 }
-
 .ver-light a:hover{
     color: #5817a3;
     text-decoration: none;
     font-weight: 700;
 }
-
 .ver-light a{
     color: #5817a3;
     text-decoration: none;
 }
 
-.img-descripcion img{
-    width: 100%;
-    /*border: 1px solid #240F3F;*/
-}
+/*CERTIFICADOS*/
 
 .certificados {
     background-image: url(../img/bg_cert.png);
@@ -126,15 +123,12 @@ h2 {
 
     /*border: 1px solid #240F3F;*/
 }
-
 .certificados h2{
     color: #240F3F;
 }
-
 .certificados h5{
     color: #f9eaff;
 }
-
 .certificados-body {
     background-image: url(../img/bg_cert.png);
     background-position: center;
@@ -142,10 +136,11 @@ h2 {
 
     /*border: 1px solid #240F3F;*/
 }
-
 .certificados-body h5{
     color: #f9eaff;
 }
+
+/*BOTONES VER MAS*/
 
 .btn-ver-dark {
     display: block;
@@ -159,14 +154,12 @@ h2 {
     border-radius: 10px;
     text-decoration: none;
 }
-
 .btn-hover-dark a:hover {
     background-color: #f9eaff;
     font-weight: 700;
     color: #240F3F;
     border: 2px solid #240F3F;
 }
-
 .btn-ver-light {
     display: block;
     justify-content: end;
@@ -179,13 +172,14 @@ h2 {
     border-radius: 10px;
     text-decoration: none;
 }
-
 .btn-hover-light a:hover {
     background-color: #240f3f;
     font-weight: 700;
     color: #f9eaff;
     border: 2px solid #f9eaff;
 }
+
+/*PORTAFOLIO*/
 
 .portafolio {
     background-image: url(../img/bg_color.png);
@@ -224,8 +218,9 @@ h2 {
 }*/
 
 .card-body-portafolio{
-    background-color: #f8f4ff;
+    background-color: #fefdff;
     color: #240F3F;
+    min-height: auto;
 }
 
 .card-footer-portafolio {
@@ -234,15 +229,15 @@ h2 {
     color: #5817a3c2;
 }
 
-.card-body-portafolio h5{
+.card-body-portafolio h5, a{
     color: #5817a3;
     text-decoration: none;
 }
 
-.card-body-portafolio a{
+/*.card-body-portafolio a{
     color: #5817a3;
     text-decoration: none;
-}
+}*/
 
 .card-body-portafolio h5:hover{
     font-weight: 700;
@@ -258,12 +253,24 @@ h2 {
     color: #f1eaff;
 }
 
+/*EXPERIENCIA*/
 
-
-
-
-
-
+.experiencia {
+    background-image: url(../img/bg_cert.png);
+    background-position: center;
+    min-height: auto;
+}
+.card-header-exp{
+    background-color: #240F3F;
+    color: #f1eaff;
+}
+.card-body-exp{
+    background-color: #fefdff;
+    color: #240F3F;
+}
+.experiencia h6, small{
+    color: #5817a3;
+}
 
 
 
