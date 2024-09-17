@@ -28,6 +28,13 @@ h2 {
     text-decoration: underline;
 }
 
+.marcaje{
+    font-weight: 700;
+    color: #5817a3;
+    pointer-events: none;}
+
+
+
 /*HEADER*/
 
 .acerca-de-mi {
