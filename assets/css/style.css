@@ -24,7 +24,7 @@ h2 {
 
 .navbar-nav a:hover {
     font-weight: 700;
-    color: #8f5fff;
+    color: #5817a3;
     text-decoration: underline;
 }
 
@@ -104,13 +104,13 @@ h2 {
 }
 
 .ver-light a:hover{
-    color: #8f5fff;
+    color: #5817a3;
     text-decoration: none;
     font-weight: 700;
 }
 
 .ver-light a{
-    color: #8f5fff;
+    color: #5817a3;
     text-decoration: none;
 }
 
@@ -190,6 +190,7 @@ h2 {
 .portafolio {
     background-image: url(../img/bg_color.png);
     background-position: center;
+    color: #f1eaff;
 }
 
 /*.portafolio {
@@ -235,12 +236,27 @@ h2 {
 
 .card-body-portafolio h5{
     color: #5817a3;
+    text-decoration: none;
 }
 
-.portafolio h2{
-    color: #f9eaff;
+.card-body-portafolio a{
+    color: #5817a3;
+    text-decoration: none;
 }
 
+.card-body-portafolio h5:hover{
+    font-weight: 700;
+    color: #5817a3;
+    text-decoration: none;
+}
+
+.portafolio-body {
+    background-image: url(../img/bg_color.png);
+    background-repeat: repeat;
+    background-position: center;
+    padding-bottom: 50px;
+    color: #f1eaff;
+}
 
 
 
