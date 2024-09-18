@@ -76,13 +76,10 @@ h2 {
     font-weight: 700;
 }
 .ver-dark a{
-    color: #f3d4ff;
+    color: #f1eaff;
     text-decoration: underline;
 }
-.en-curso{
-    font-size: small;
-    color: #f3d4ff;   
-}
+
 .ver-light{
     font-size: small;
     text-decoration: none;
@@ -133,6 +130,7 @@ h2 {
     text-align: center;
     border-radius: 10px;
     text-decoration: none;
+    border: 2px solid #240F3F;
 }
 .btn-hover-dark a:hover {
     background-color: #f9eaff;
@@ -147,7 +145,7 @@ h2 {
     font-weight: 500;
     background-color: #f9eaff;
     color: #240f3f;
-    border: 1px solid #240f3f;
+    border: 2px solid #240f3f;
     text-align: center;
     border-radius: 10px;
     text-decoration: none;
@@ -244,17 +242,48 @@ footer small{
 
 .card-footer-cert{
     height: 50px;
+    background-color: #f1eaff;
 }
 
 
 .card-header-cert{
+    font-weight: 500;
+    font-size: large;
     display: flex;
     justify-content: start;
     min-height: 60px;
     align-items: center;
     padding: 4px 16px 4px 16px;
+    color: #f1eaff;
 
 }
+
+.card-cert{
+    background-color: #240f3f;
+}
+
+.en-curso{
+    font-size: small;
+    color: #5817a3; 
+}
+.ver-cert{
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+.ver-cert a:hover{
+    color: #5817a3;
+    text-decoration: none;
+    font-weight: 700;
+}
+.ver-cert a{
+    color: #5817a3;
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
