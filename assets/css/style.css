@@ -279,6 +279,18 @@ h2 {
     color: #5817a3;
 }
 
+/*FOOTER*/
+footer{
+    background-image: url(../img/bg_color.png);
+    color: #f1eaff;
+}
+
+footer i{
+    color: #f1eaff;
+}
+footer small{
+    color: #f1eaff;
+}
 
 
 
