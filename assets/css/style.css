@@ -103,7 +103,7 @@ h2 {
 /*CERTIFICADOS*/
 
 .certificados {
-    background-image: url(../img/bg_cert.png);
+    background-image: url(../img/bg_light.png);
     background-position: center;
     min-height: auto;
 }
@@ -114,7 +114,7 @@ h2 {
     color: #f9eaff;
 }
 .certificados-body {
-    background-image: url(../img/bg_cert.png);
+    background-image: url(../img/bg_light.png);
     background-position: center;
     padding-bottom: 50px;
 }
@@ -191,17 +191,17 @@ h2 {
 }
 
 .portafolio-body {
-    background-image: url(../img/bg_cert.png);
+    background-image: url(../img/bg_light.png);
     background-repeat: repeat;
     background-position: center;
     padding-bottom: 50px;
-    color: #f1eaff;
+    color: #240F3F;
 }
 
 /*EXPERIENCIA*/
 
 .experiencia {
-    background-image: url(../img/bg_cert.png);
+    background-image: url(../img/bg_light.png);
     background-position: center;
     min-height: auto;
 }
